@@ -8,8 +8,8 @@ script:
   git remote add upstream https://$GITHUB_API_KEY@github.com/LunarWatcher/NN-chatbot.wiki.git > /dev/null 2>&1
   git fetch origin
   git fetch upstream
-  git merge upstream/master --no-edit
-  git push upstream master > /dev/null 2>&1
+  git merge origin/master --no-edit
+  git push upstream HEAD:master > /dev/null 2>&1
 
 env:
   matrix:
