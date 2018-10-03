@@ -22,8 +22,8 @@ Click on the program name to be redirected to the respective download/installati
 #### [Python 3.6+](https://www.python.org/downloads/) ####
 * **NOTE:** Python 3.6+ is only necessary if the NN module/Python bot is used.
 
-#### [Java 8](https://java.com/en/download/)
-* **NOTE:** Java 8 is only necessary if the Java port is used.
+#### [Java 10](http://jdk.java.net/10/)
+* **NOTE:** Java 10 is only necessary if the Java port is used. The project builds around OpenJDK. 
 
 
 
@@ -56,8 +56,7 @@ nltk
 ## Dataset
 
 The [Cornell Movie-Dialogs Corpus](http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
-* Download the ZIP file and extract the dialogue text files into the `raw_data` directory.
-<!--Where is the raw_data directory? Does the user need to make one? Where does the raw_data directory go in the repository?-->
+* Download the ZIP file and extract the dialogue text files into the `raw_data` directory. The directory does into the project root. 
 
 ## Ready?
 Once all programs/dependencies are downloaded and installed, proceed to the bot setup.
